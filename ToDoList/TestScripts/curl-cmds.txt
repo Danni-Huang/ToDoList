@@ -1,0 +1,7 @@
+﻿# curl for 2 Gets
+curl https://localhost:7187/tasks
+curl https://localhost:7187/tasks/2
+
+# curl for POST:
+curl -H "Content-Type: application/json" --data @sample-new-task.json https://localhost:7187/tasks
+
